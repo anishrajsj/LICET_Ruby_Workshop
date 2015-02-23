@@ -1,0 +1,5 @@
+(1..100).each do |num|
+print "fizz buzz" if num%3==0 and num%5==0
+print "fizz" if num%3==0
+print "buzz" if num%5==0
+end 
